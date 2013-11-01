@@ -1,5 +1,7 @@
 package com.heeere.stjs.bridge.indexeddb;
 
-public interface IndexedDB {
+public interface IndexedDB extends IDBFactory {
+    
+    
     
 }
