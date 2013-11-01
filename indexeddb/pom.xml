@@ -27,6 +27,11 @@
           <artifactId>shared</artifactId>
           <version>${st-js.version}</version>
       </dependency>
+      <dependency>
+          <groupId>org.st-js.bridge</groupId>
+          <artifactId>html</artifactId>
+          <version>5.0.bv0</version>
+      </dependency>
   </dependencies>
   
 </project>
