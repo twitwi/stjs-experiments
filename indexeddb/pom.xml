@@ -12,19 +12,21 @@
       <artifactId>parent-pom</artifactId>
       <version>1.0.0</version>
   </parent>
+
   <name>indexeddb</name>
   <url>http://maven.apache.org</url>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <st-js.version>2.0.0</st-js.version>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
+      <dependency>
+          <groupId>org.st-js</groupId>
+          <artifactId>shared</artifactId>
+          <version>${st-js.version}</version>
+      </dependency>
   </dependencies>
+  
 </project>
