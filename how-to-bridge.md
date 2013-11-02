@@ -19,3 +19,4 @@
 * ^ an event handler is of type <tt>Callback1&lt;DOMEvent></tt>
 * ^ DOMStringList is as <tt>Array&lt;String></tt> (not sure)
 * ^ MDN is not fully correct... adapt it
+* ^ to create a method that has a java keyword name, need to do a custom template for now <tt>@Template("dollardot")</tt>
