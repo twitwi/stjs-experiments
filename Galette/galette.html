@@ -1,0 +1,26 @@
+<html>
+
+    <head>
+        <script src="target/classes/stjs.js" type="text/javascript"></script>
+        <script src="target/classes/com/heeere/stjsexpe/galette/Galette.js" type="text/javascript"></script>
+        <script src="target/classes/com/heeere/stjsexpe/galette/App.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h1>Galette with Canvas</h1>
+
+        slices: <input id=slices type="range" min=2 max=16 step=1 value="8"> <br/>
+        R: <input id=r type="range" min=0.01 max=0.5 step=0.001 value="0.066"> <br/>
+        <canvas id="draw" width="800" height="600"></canvas>
+
+        <form id="form">
+            Say hello to:
+            <input id="the-textfield" type="text" name="to" value="bobby">
+            <input id="save" type="button" name="save" value="Save current date">
+            <input id="read" type="button" name="read" value="Read">
+        </form>
+        <div id="all" style="border: 1px solid black; min-height: 50px;">
+            
+        </div>
+        
+    </body>
+</html>
